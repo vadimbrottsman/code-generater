@@ -1,0 +1,125 @@
+.code-generator-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.code-generator-block {
+    width: 45%;
+}
+
+.code-generator-form-table {
+    table-layout: fixed;
+}
+
+.code-generator-form-table th,
+.code-generator-form-table td {
+    padding: 10px;
+    width: 50%;
+    text-align: left;
+}
+
+.code-generator-form__button {
+    margin: auto;
+}
+
+.code-generator-block-answer {
+    display: none;
+}
+
+.code-generator__error {
+    display: none;
+    background-color: #E23A3A;
+    color: #fff;
+    font-weight: bold;
+}
+
+.code-generator__error td {
+    text-align: center;
+}
+
+.code_generator_shortcode {
+    max-width: 100%!important;
+}
+
+.code_generator_shortcode fieldset {
+    border: none;
+}
+
+.code_generator_shortcode input, .code_generator_shortcode button {
+    padding: 10px;
+}
+
+.codes .pagination {
+    width: 100%;
+}
+
+.codes .pagination ul {
+    list-style: none;
+}
+
+.codes .pagination ul li {
+    padding: 15px;
+    border: 1px solid #000;
+    display: inline-block;
+    margin: 5px;
+}
+
+.code-generator-wrap-activator {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0;
+}
+
+
+.code-generator__block-activator {
+     width: 100%;
+     text-align: center;
+     padding-top: 50px;
+}
+.code-generator-wrap-activator .input {
+    width: 80%;
+    display: block;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.code-generator-wrap-activator__result .success {
+    color: #45ED3C;
+}
+
+.code-generator-wrap-activator__result .error {
+    color: #ED3C3C;
+}
+
+.code-generator-wrap-activator__result table {
+    margin: auto;
+}
+
+
+.code-generator-wrap-activator__result table tr th {
+    padding: 10px;
+    border-top: 5px solid #CCCCCC;
+    border-bottom: 5px solid #CCCCCC;
+}
+
+.code-generator-wrap-activator__result table tr td {
+    padding: 10px;
+}
+
+.active-info-table, 
+.code-generator-wrap-activator__result {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .code-generator-wrap {
+        flex-wrap: wrap;
+    }
+
+    .code-generator-block {
+        width: 100%;
+    }
+}
